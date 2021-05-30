@@ -12,7 +12,6 @@ const App = () => {
          <div className="app-inner">
             <Header/>
             <Navbar/>
-            <Profile/>
          </div>
       </div>
    )
