@@ -11,8 +11,11 @@ const App = () => {
       <div className="app-wrapper">
          <div className="app-inner">
             <Header/>
+            123
             <Navbar/>
+            123
             <Profile/>
+            123
          </div>
       </div>
    )
