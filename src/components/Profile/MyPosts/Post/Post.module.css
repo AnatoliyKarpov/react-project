@@ -1,0 +1,20 @@
+.article__ava {
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   object-fit: cover;
+}
+
+.article__comments {
+   display: flex;
+   margin-bottom: 20px;
+}
+
+.article__comment {
+   padding-left: 20px;
+   display: block;
+}
+
+.article__like {
+   
+}
