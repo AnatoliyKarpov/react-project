@@ -1,0 +1,28 @@
+.article {
+   grid-area: article;
+   background-color: blueviolet;
+}
+
+.article__img {
+   width: 100%;
+   height: 200px;
+   object-fit: cover;
+}
+
+.article__content {
+   display: flex;
+   padding: 0 20px;
+}
+.article__ava {
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+   object-fit: cover;
+}
+.article__info {
+   padding-left: 20px;
+}
+
+.article__name {
+   padding-bottom: 20px;
+}
