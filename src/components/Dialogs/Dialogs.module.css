@@ -1,8 +1,6 @@
 .dialogs__inner {
    display: flex;
-   
 }
-
 
 .dialogs__chats {
    padding: 0 20px;
@@ -13,26 +11,19 @@
 
 .dialogs__line {
    width: 2px;
-   height: 100%;
    background-color: black;
 }
 
 .dialogs__screen {
    padding-left: 20px;
 }
-.dialogs__chat_name {
-   font-size: 18px;
-   padding-bottom: 10px;
-}
+
 .dialogs__chat_name.active {
    font-size: 26px;
 }
-.dialogs__screen_messages {
-   display: flex;
-}
+
 
 .dialogs__screen_who {
-
 }
 
 .dialogs__screen_foto {

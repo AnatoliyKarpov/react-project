@@ -24,5 +24,7 @@ a {
    column-gap: 15px;
 }
 
-
-
+.grid-wrapper {
+   grid-area: article;
+   background-color: blueviolet;
+}

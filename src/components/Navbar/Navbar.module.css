@@ -10,3 +10,7 @@
 .li {
    padding-bottom: 10px;
 }
+
+a.active {
+   color: white;
+}

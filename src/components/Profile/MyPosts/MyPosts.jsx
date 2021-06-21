@@ -3,7 +3,11 @@ import mod from './MyPosts.module.css';
 import Post from './Post/Post';
 
 
-const MyPosts = () => {
+const MyPosts = (props) => {
+   
+
+
+   let posts = props.postData.map( p => <Post id={p.id} message={p.message} like={p.likesCount} />)
    return (
       <div>
          <div className={mod.article__posts}>
@@ -11,8 +15,7 @@ const MyPosts = () => {
             <textarea className={mod.article__textarea} placeholder="your news..." />
             <button className={mod.article__btn}>Send</button>
          </div>
-         <Post message='Hello' like='like: 20' />
-         <Post message='world' like='like: 15' />
+         {posts}
       </div>
    )
 }

@@ -1,5 +1,8 @@
 import { React } from 'react';
 import mod from './Post.module.css';
+import PostInfo from './PostInfo/PostInfo';
+
+
 
 
 const Post = (props) => {
